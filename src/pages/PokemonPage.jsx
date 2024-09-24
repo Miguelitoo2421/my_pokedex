@@ -23,6 +23,7 @@ function PokemonPage(){
     // }, [])
 
     useEffect(()=>{
+        setPokemonDetails(null);
         getData();
     },[pokemonName])
 
