@@ -1,7 +1,7 @@
 body {
   margin: 0;
   text-align: center;
-  background-color: lightgray;
+  background-color: #cc0000;
 }
 
 .app-container {
@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-color: rgb(105, 105, 105);
+  background-color: rgb(151, 0, 0);
   position: fixed;
   width: 100%;
 }
@@ -28,6 +28,8 @@ body {
   scroll-behavior: smooth;
   overflow: hidden;
   overflow-y: scroll;
+  scrollbar-color: red white;
+  scrollbar-width: thin;
 }
 
 .sidebar a {
@@ -41,4 +43,11 @@ body {
   width: 80%;
   min-height: 450px;
   border-radius: 20px;
+}
+
+#pokemon-sprite {
+  box-shadow: 0px 0px 10px 1px rgb(204, 204, 204);
+  background-color: rgb(244, 244, 244);
+  border-radius: 10px;
+  width: 200px;
 }
